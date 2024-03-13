@@ -1,7 +1,7 @@
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-public class NewUI extends JFrame {
+class NewUI extends JFrame {
    JFrame f;
 
    NewUI() {
@@ -14,7 +14,7 @@ public class NewUI extends JFrame {
       setVisible(true);
    }
 
-   public static void main() {
+   public static void main(String[] args) {
       new NewUI();
    }
 }
